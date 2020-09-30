@@ -3,3 +3,6 @@ psycopg2
 djangorestframework
 pre-commit
 ipdb
+whitenoise
+gunicorn
+dj-database-url

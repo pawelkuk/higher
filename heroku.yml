@@ -9,4 +9,4 @@ release:
   command:
     - python manage.py collectstatic --noinput
 run:
-  web: gunicorn workate.wsgi
+  web: gunicorn workate.wsgi -w 2 --timeout 3
